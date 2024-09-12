@@ -19,8 +19,8 @@ android {
 
 tasks.register('genUUID') {
     def uuid = UUID.randomUUID().toString()
-    def odir = file("$buildDir/generated/assets/model-en-us")
-    def ofile = file("$odir/uuid")
+    def odir   = file("$buildDir/generated/assets/model-ru-rf")
+    def ofile  = file("$odir/uuid")
     doLast {
         mkdir odir
         ofile.text = uuid
