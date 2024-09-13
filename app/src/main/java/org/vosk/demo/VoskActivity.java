@@ -44,9 +44,9 @@ public class VoskActivity extends Activity implements
 
     static private final int STATE_START = 0;
     static private final int STATE_READY = 1;
-    static private final int STATE_DONE = 2;
-    static private final int STATE_FILE = 3;
-    static private final int STATE_MIC = 4;
+    static private final int STATE_DONE  = 2;
+    static private final int STATE_FILE  = 3;
+    static private final int STATE_MIC   = 4;
 
     /* Used to handle permission request */
     private static final int PERMISSIONS_REQUEST_RECORD_AUDIO = 1;

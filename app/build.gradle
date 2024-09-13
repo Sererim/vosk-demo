@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "org.vosk.demo"
-    compileSdkVersion 33
+    namespace  = "org.vosk.demo"
+    compileSdk = 34
     defaultConfig {
         applicationId "org.vosk.demo"
-        minSdkVersion 21
-        targetSdkVersion 33
+        minSdk    = 26
+        targetSdk = 34
         versionCode 1
         versionName "1.1"
         ndkVersion = "25.2.9519653"
